@@ -130,7 +130,7 @@ export default class AddCandidate extends Component {
                 <input
                   className={"input-ac"}
                   type="text"
-                  placeholder="eg. Marcus"
+                  placeholder="eg. Ram Kumar"
                   value={this.state.header}
                   onChange={this.updateHeader}
                 />
@@ -140,7 +140,7 @@ export default class AddCandidate extends Component {
                 <input
                   className={"input-ac"}
                   type="text"
-                  placeholder="eg. It is what it is"
+                  placeholder="eg. Vote for ram"
                   value={this.state.slogan}
                   onChange={this.updateSlogan}
                 />
