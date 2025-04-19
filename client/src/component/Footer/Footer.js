@@ -8,7 +8,7 @@ const Footer = () => (
     <div className="footer">
       <div className="footer-container">
         <p>
-          View this project on{" "}
+          View this project on{"https://github.com/prathamesh901/Decentralized-Voting-System.git "}
           <a
             className="profile"
             href=""
