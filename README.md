@@ -51,3 +51,48 @@ A blockchain-based decentralized voting system built on the [Ethereum](https://e
    ```bash
    npm install -g truffle
    npm install -g ganache-cli
+
+⚙️ Run Locally
+🧾 Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/prathamesh901/Decentralized-Voting-System.git
+cd Decentralized-Voting-System
+⚡ Start Ganache CLI
+bash
+Copy
+Edit
+ganache-cli
+🔸 Keep this terminal open — it runs your local Ethereum blockchain and provides test ETH accounts with private keys.
+
+🦊 Configure MetaMask
+Open the MetaMask extension in your browser.
+
+Click “Add network manually” and use the following details:
+
+Network Name: Ganache Local
+
+New RPC URL: http://127.0.0.1:8545
+
+Chain ID: 1337
+
+Currency Symbol: ETH (optional)
+
+Import one or more accounts using private keys from Ganache CLI output.
+
+📤 Deploy Smart Contracts
+In a new terminal (keep Ganache running), run:
+
+bash
+Copy
+Edit
+truffle migrate --reset
+💻 Start the Frontend
+bash
+Copy
+Edit
+cd client
+npm install
+npm start
+🌐 Open your browser and go to http://localhost:3000 to use the dVoting app.
